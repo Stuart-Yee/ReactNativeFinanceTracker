@@ -7,7 +7,7 @@ const DUMMY_EXPENSES = [
     {
         id: "e1",
         description: "Pair of shoes (num1)",
-        amount: 59.99,
+        amount: 59.0,
         date: new Date("2022-12-01T12:00:00.000-0700")
     },
     {
