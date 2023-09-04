@@ -4,7 +4,11 @@ import { useContext } from "react";
 
 const AllExpenses = () => {
     const expensesContext = useContext(ExpenseContext);
-    return <ExpensesOutput expensesPeriod="Total" expenses={expensesContext.expenses}/>
+    return <ExpensesOutput 
+        expensesPeriod="Total" 
+        expenses={expensesContext.expenses}
+        fallbackText={"No registered expenses found"}
+        />
 }
 
 export default AllExpenses;
